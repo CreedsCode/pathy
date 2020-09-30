@@ -8,3 +8,6 @@ just set the env var secret to the  https://openrouteservice.org/ api key!
 ## I posted a image: https://twitter.com/CreedGamesOA/status/1265047703026896896/photo/1
 
 btw, I spend way to much time in this project! I appreciate it, with at least giving it the chance to sit here.
+
+# Challenge: move it to a vuejs pwa on firebase.
+This is a static webapp. build on the openrouteservice api, that gets used in the azure functions. so the api key does not get leaked.
