@@ -89,7 +89,7 @@ export default {
       };
 
       fetch(
-        "http://localhost:7071/api/Autocomplete?text=" + this.geoCodeInput,
+        "/api/Autocomplete?text=" + this.geoCodeInput,
         requestOptions
       )
         .then(response => response.text())
@@ -103,7 +103,7 @@ export default {
       };
 
       fetch(
-        "http://localhost:7071/api/Search?text=" + this.geoCodeInput,
+        "/api/Search?text=" + this.geoCodeInput,
         requestOptions
       )
         .then(response => response.text())
