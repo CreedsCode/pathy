@@ -55,7 +55,7 @@ export default {
         redirect: "follow"
       };
 
-      fetch("http://localhost:7071/api/Directions", requestOptions)
+      fetch("/api/Directions", requestOptions)
         .then(response => response.text())
         .then(result => (this.geoJson = JSON.parse(result)))
         .catch(error => console.log("error", error));
